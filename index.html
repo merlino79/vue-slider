@@ -18,6 +18,8 @@
 
     <div id="app" class="container">
         <div class="slide-wrapper">
+            <div class="field created-at"> {{ createdAtDisplay }}</div>
+
             <h1>
                 lupen III
             </h1>
@@ -35,8 +37,19 @@
                 </i>
 
             </div>
-            <div class="navplay">
+            <!-- tasto per il timer ma non so come farlo andare -->
+            <div class="navplay" @click="play">
+                <p>
+                    play timer
+                </p>
                 <i class="fas fa-pray"></i>
+
+            </div>
+            <div class="navplay2" @click="resetPlay">
+                <i class="fas fa-pray"></i>
+                <p>
+                    stop timer
+                </p>
 
             </div>
 

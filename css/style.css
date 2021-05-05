@@ -84,6 +84,14 @@ h1 {
 
 .navplay {
     position: absolute;
-    top: 85%;
-    left: 20%;
+    top: 10%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.navplay2 {
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    cursor: pointer;
 }
