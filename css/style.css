@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #bd8216; */
-    font-family: fantasy;
+    font-family: cursive;
 }
 
 .container {
@@ -42,8 +42,8 @@ h1 {
 .prev,
 .next {
     position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
+    top: 60%;
+    transform: translatey(-60%);
     font-size: 40px;
     cursor: pointer;
 }

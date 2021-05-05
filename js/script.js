@@ -4,10 +4,10 @@ const app = new Vue({
     data: {
         counterPhoto: 0,
         photos: [
-            '/img/gighen.jpg',
-            '/img/lupen.jpg',
-            '/img/ragazza.jpg',
-            '/img/zenigada.jpg',
+            'img/gighen.jpg',
+            'img/lupen.jpg',
+            'img/ragazza.jpg',
+            'img/zenigada.jpg',
         ]
 
     },
