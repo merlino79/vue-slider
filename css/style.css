@@ -81,3 +81,9 @@ h1 {
 .nav>i.active {
     color: rgb(191, 250, 135);
 }
+
+.navplay {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
